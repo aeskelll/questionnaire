@@ -1,0 +1,41 @@
+{
+    "questions": {
+        "Q1": {
+            "text": "What is your marital status?",
+            "options": {
+                "Single": "Q2",
+                "Married": "Q3"
+            }
+        },
+        "Q2": {
+            "text": "Are you planning on getting married next year?",
+            "options": {
+                "Yes": "Q6",
+                "No": "Q4"
+            }
+        },
+        "Q3": {
+            "text": "How long have you been married?",
+            "options": {
+                "Less than a year": "Q5",
+                "More than a year": "Q6"
+            }
+        },
+        "Q4": {
+            "text": "You have chosen not to get married next year.",
+            "options": {
+                "NextQuestion": "Q6"
+            }
+        },
+        "Q5": {
+            "text": "Congratulations on your recent marriage!",
+            "options": {
+                "NextQuestion": "Q6"
+            }
+        },
+        "Q6": {
+            "text": "Thank you for participating in the survey!",
+            "options": {}
+        }
+    }
+}
